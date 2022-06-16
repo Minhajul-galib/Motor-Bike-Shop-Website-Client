@@ -1,0 +1,32 @@
+.About-1{
+    margin-top: 2%;
+    background-image: url('../../image/about.jpg');
+    min-height: 100vh;
+    background-size: cover;
+}
+.about-1-div {
+    background-color: rgba(0, 0, 0, 0.363);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.about-div-extra {
+    text-align: center;
+    background-color: #f9f9f942;
+    width: 34%;
+    padding: 3% 0 0;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.about-div-extra button {
+    width: 40%;
+    margin-bottom: 3%;
+    font-size: 17px;
+}
+.about-2{
+    margin-top: 3%;
+    text-align: center;
+}

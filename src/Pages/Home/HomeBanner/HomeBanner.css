@@ -1,0 +1,33 @@
+.HomeBanner{
+    background-image: url('/src/image/bd.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.HomeBanner-div {
+    min-height: 100vh;
+    background-image: linear-gradient( 
+180deg, #000000, #ffffff80);
+}
+.HomeBanner-div p {
+    padding: 15% 0 0;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    word-spacing: 14px;
+    font-weight: 600;
+}
+.HomeBanner-div h2 {
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    font-family: cursive;
+}
+.HomeBanner-div hr {
+    height: 3px;
+    width: 55%;
+    background-image: radial-gradient(white, white);
+    margin: 20px auto;
+}

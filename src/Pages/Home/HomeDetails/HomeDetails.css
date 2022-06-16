@@ -1,0 +1,40 @@
+.HomeDetails{
+    background-image: url('../../../image/footerWidget.jpg');
+    min-height: 40vh;
+    background-size: cover;
+    padding: 0 5%;
+}
+.HomeDetails-div img{
+    padding: 10% 0;
+    width: 50%;
+}
+
+.footer-widget-main{
+    display: flex;
+    flex-direction: row;
+}
+.footer-btn-set{
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 430px) {
+
+    .footer-widget-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .HomeDetails-div img {
+        width: 100%;
+        padding: 0% 20%;
+    }
+    .HomeDetails{
+        margin-top: 25%;
+    }
+    .footer-btn-set{
+        text-align: center;
+    }
+}

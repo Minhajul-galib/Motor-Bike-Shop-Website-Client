@@ -1,0 +1,39 @@
+.TopBar {
+    background-color: #28385a;
+    padding: 0px 4%;
+    margin-top: 100px;
+}
+.TopBar-div-1 p {
+    margin: 0; 
+    padding: 13px 0;
+    color: white;
+    padding-right: 2%;
+}
+.TopBar-div-1 img {
+    width: 7%;
+    padding: 1% 0;
+    border-radius: 50px;
+}
+.TopBar-div-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 9px 25px 0px;
+    margin: 9px;
+    background-color: #ffffff1f;
+
+}
+.TopBar-div-1 a:hover{
+    background-color: #ffffff1f;
+    padding: 9px 25px 0px;
+    box-shadow: 0px 0px 2px 1px #ffffff73;
+}
+
+@media only screen and (max-width: 430px) {
+    .TopBar-div-1 img {
+        width: 31%;
+        padding: 1% 0;
+        border-radius: 50px;
+    }
+  }
